@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: darkslategrey;
+    height: 100%;
+}
+
+input {
+    background-color: grey;
+    color: rgba(50, 50, 50, 0.463);
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+div {
+    margin: auto;
+    width: 50%;
+
+    background-color: #95D600;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: rgba(50, 50, 50, 0.463);
+}
