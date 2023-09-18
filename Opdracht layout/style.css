@@ -3,6 +3,7 @@
     margin: 0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 100%;
+    color: rgb(0, 159, 159);
 }
 
 .container {
@@ -13,21 +14,23 @@
 }
 
 #nav {
-    background-color: lightblue;
+    background-image: linear-gradient(to right, black, #83E2C5, 50%, black );
     border: white solid 1vh;
+
+    display: flex;
 
     height: 5vh;
 }
 
 #banner {
-    background-color: lightblue;
+    background-image: linear-gradient(to right, black, #83E2C5, black);
     border: white solid 1vh;
 
     height: 10vh;
 }
 
 #content {
-    background-color: lightblue;
+    background-image: url(https://i0.wp.com/www.capital-media.mu/wp-content/uploads/2023/09/file-20230914-27-vsdb54.jpg?fit=1356%2C668&ssl=1);
     border: white solid 1vh;
 
     height: 73vh;
@@ -35,7 +38,7 @@
 }
 
 #ad {
-    background-color: lightblue;
+    background-image: linear-gradient(black 80%, white);
     border: white solid 1vh;
 
     height: 73vh;
@@ -43,7 +46,7 @@
 }
 
 #footer {
-    background-color: lightblue;
+    background-image: linear-gradient(to right, black 50%, white);
     border: white solid 1vh;
 
     height: 5.2vh;
