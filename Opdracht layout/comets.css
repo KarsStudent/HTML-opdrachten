@@ -30,6 +30,7 @@ body {
 
 .buttons {
     text-decoration: none;
+
     line-height: 4vh;
 
     margin: 0 3%;
@@ -81,14 +82,6 @@ body {
     max-width: 500px;
 }
 
-table, th, td {
-    border: solid white 3px;
-    text-align: center;
-    
-    width: 250px;
-    height: 50px;
-}
-
 #images {
     display: flex;
     flex-flow: row wrap;
@@ -104,8 +97,6 @@ table, th, td {
 }
 
 .image {
-    flex-shrink: 1;
-
     width: 80px;
 }
 
@@ -123,4 +114,10 @@ footer {
     font-size: 0.9rem;
 
     margin: 10px;
+}
+
+.meteorite {
+    transform: rotate(-90deg);
+
+    width: 2%;
 }
