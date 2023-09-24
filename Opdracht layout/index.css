@@ -104,9 +104,8 @@ table, th, td {
 }
 
 .image {
-    flex-shrink: 1;
-
-    width: 80px;
+    width: 10vw;
+    min-width: 80px;
 }
 
 footer {

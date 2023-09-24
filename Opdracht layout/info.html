@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
-    <link rel="stylesheet" href="blackholes.css">
+    <link rel="stylesheet" href="info.css">
     <link rel="icon" href="./images/icon.png">
 </head>
 <body>
@@ -18,27 +18,45 @@
     </nav>
 
     <div id="banner">
-        <h1>Send info</h1>
+        <h1 class="title">Send info</h1>
+        <p class="description">Fill in the form to send additional information to the author of the website to help make this website better.</p>
     </div>
-
-    <div class="container">
-        <div id="content">
-            <div class="child">
-                <h1></h1>
-                <br> 
-                <h2 class="description"></h2>
-            </div>
-        </div>
     
-        <aside id="images">
-            <h1 class="title">Images:</h1>
-            
-        </aside>
+    <div id="content">
+        <div class="child">
+            <form method="post" action="mailto:karspostema@gmail.com" enctype="text/plain">
+                <label for="fname">First Name:</label>
+                <br>
+                <input type="text" id="fname" placeholder="First Name" name="First Name" required>
+                <br><br>
+                <label for="lname">Last Name:</label>
+                <br>
+                <input type="text" id="lname" placeholder="Last Name" name="Last Name" required>
+                <br><br>
+                
+                <p>Subject:</p>
+                <input type="radio" id="comets" name="Subject" value="Comets" required>   
+                <label for="comets">Comets</label>
+
+                <input type="radio" id="earths" name="Subject" value="Earth 2.0" required>
+                <label for="earths">Earth 2.0</label>
+                <br>
+                <input type="radio" id="blackholes" name="Subject" value="Black Holes" required>
+                <label for="blackholes">Black holes</label>
+
+                <br><br>
+                <label for="info">Information:</label>
+                <br>
+                <textarea name="Info" id="info" placeholder="Put your information here" required></textarea>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
     </div>
 
     <footer>
         <h1 class="footer-text" class="footer-text">Copyright © 2023</h1>
-        <a href="mailto:karspostema@gmail.com" class="footer-text">karspostema@gmail.com</a>
+        <a href="https://www.karspostema.nl" class="footer-text" target="_blank">karspostema.nl</a>
     </footer>
 
 </body>
